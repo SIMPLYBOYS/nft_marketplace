@@ -1,2 +1,45 @@
 # nft_marketplace
 this a web3 application which perform basic nft markeet place prototype include minting, buying, take down 
+
+
+## Run locally
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/dabit3/full-stack-ethereum.git
+```
+
+2. Install the dependencies
+
+```sh
+npm install
+```
+
+3. Start the local test node
+
+```sh
+npx hardhat node
+```
+
+4. Compile the contract 
+```
+npx hardhat compile
+```
+
+5. Deploy the contract
+
+```sh
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+6. Run the app
+
+```sh
+npm run dev
+```
+
+## Test Contract 
+```sh
+npx hardhat test
+```

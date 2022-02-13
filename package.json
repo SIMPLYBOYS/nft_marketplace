@@ -5,6 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "npx hardhat test",
     "lint": "next lint"
   },
   "dependencies": {
