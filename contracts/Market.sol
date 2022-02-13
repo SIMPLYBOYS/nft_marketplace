@@ -110,6 +110,7 @@ contract NFTMarket is ReentrancyGuard {
         payable(owner).transfer(listingPrice);
     }
 
+    /* change the state of the marketplace item */
     function toggleMarketSale(uint256 tokenId) public nonReentrant {
         uint256 itemCount = _itemIds.current();
 
