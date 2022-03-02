@@ -1,5 +1,6 @@
-# nft_marketplace
-this a web3 application which perform basic nft markeet place prototype include minting, buying, take down 
+![grants_badge](https://s3cdn.yourator.co/attachments/attachments/000/088/943/original/a68bb24cc77367be4ffeaa14f478afd72601d530.jpg)
+# NFT Marketplace
+this a web3 application which perform basic nft markeet place prototype include minting, buying, take down. The backend part of the application is composed of a nft ERC721 contract and a marketplace contract interactive with nft contract
 
 
 ## Run locally
